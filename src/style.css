@@ -22,7 +22,7 @@ header h2 {
   font-size: 35px;
   font-weight: 400;
   line-height: 1;
-  margin: 0 auto;
+  margin: 0;
 }
 
 header h3 {
@@ -30,7 +30,7 @@ header h3 {
   font-size: 20px;
   letter-spacing: 5px;
   line-height: 1;
-  margin: 0 auto;
+  margin: 0;
 }
 
 header a {
@@ -54,6 +54,9 @@ header a:hover {
 }
 
 @media (max-width: 960px) {
+  header {
+    padding: 60px;
+  }
   header h1 {
     font-size: 45px;
     margin: 15px auto;
