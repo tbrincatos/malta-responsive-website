@@ -52,7 +52,42 @@ header a:hover {
   transform: scale(1.1);
   transform-origin: center;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("/img/maltese-sea-top.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px 50px;
+}
+
+footer a,
+a:hover,
+a:visited {
+  color: white;
+}
+
+footer a {
+  transition: 150ms all ease-in-out;
+}
+
+footer a:hover {
+  text-decoration-color: #216d66;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px;
