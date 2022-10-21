@@ -58,7 +58,7 @@ header a:hover {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("/img/maltese-sea-top.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
