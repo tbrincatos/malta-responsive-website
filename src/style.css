@@ -63,19 +63,12 @@ header a:hover {
 .grid-3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.text-center {
+  text-align: center;
+}
 
 main section {
   padding: 100px 50px;
-}
-
-main h4 {
-  color: #272044;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 5px;
-  margin: 0;
-  opacity: 0.3;
 }
 
 main h2 {
@@ -84,6 +77,16 @@ main h2 {
   line-height: 50px;
   margin: 0;
   color: #272044;
+}
+
+main h4 {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 24px;
+  margin: 0;
+  opacity: 0.3;
 }
 
 main p {
@@ -106,6 +109,20 @@ main .malta-description {
   align-items: left;
 }
 
+main .restaurant-section {
+  background-color: #f8f8f8;
+}
+
+main .restaurant-section .card {
+  background-color: white;
+}
+
+main .restaurant-section h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #272044;
+}
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("/img/maltese-sea-top.jpg");
@@ -174,7 +191,7 @@ footer p {
   }
 
   main section {
-    padding: 50px 50px;
+    padding: 50px 25px;
   }
 
   main h2 {
