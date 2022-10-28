@@ -117,7 +117,7 @@ main .restaurant-section {
 
 main .restaurant-section .card {
   background-color: white;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 main .restaurant-section .card-body {
@@ -156,7 +156,7 @@ main .restaurant-section .card-footer .btn {
 }
 
 main .restaurant-section .card-footer .btn:hover {
-  background-color: #272044e6;
+  background-color: #272044;
 }
 
 footer {
