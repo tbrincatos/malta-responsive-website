@@ -101,7 +101,7 @@ main p {
 
 main .img-responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 main .malta-description {
@@ -157,6 +157,15 @@ main .restaurant-section .card-footer .btn {
 
 main .restaurant-section .card-footer .btn:hover {
   background-color: #272044;
+}
+
+main .media .youtube {
+  margin-top: 50px;
+}
+
+main .media .youtube-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 footer {
@@ -237,11 +246,26 @@ footer p {
   main .malta-description {
     text-align: center;
   }
+
   .grid {
     grid-template-columns: 1fr;
   }
 
+  main .card-header img {
+    display: none;
+  }
+
+  main .card-header iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
   footer h3 {
     margin-bottom: 8px;
+  }
+}
+@media (min-width: 961px) {
+  main .card-header iframe {
+    display: none;
   }
 }
